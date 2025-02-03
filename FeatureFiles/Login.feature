@@ -16,7 +16,7 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-
+@smoke
 Feature: verify Login functionality
 
 Scenario: Login with valid credential
@@ -25,3 +25,17 @@ When User enter vlid username and valid password
 And User click on Login button
 Then User navigate to home screen
 
+Scenario: User login with invalid username
+Given User navigate to Login screen
+When User enter invalid username "omi" and valid password "admin123"
+And User click on Login button
+Then User gives error
+
+
+Scenario: User login with invalid username
+Given User navigate to Login screen
+When User enter username and password
+|hh|pass|
+|ooo|passdd|
+And User click on Login button
+Then User gives error

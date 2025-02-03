@@ -1,6 +1,7 @@
 package pageObjects;
 
 import java.io.IOException;
+import java.util.List;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -43,5 +44,18 @@ public class LoginPage {
 		String LoginPageTitle=driver.getTitle();
 		return LoginPageTitle;
 	}
+	
+	
+	
+	public void enterUsernameManual(String username) throws IOException {
+		UsernameTb.sendKeys(username);
+	}
+	public void enterPasswordManual(String password) throws IOException {
+		PasswordTb.sendKeys(password);
+	}
+	
+	
+
+	
 
 }

@@ -5,7 +5,8 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 		features = "FeatureFiles",
-		glue="stepdefs")
+		glue="stepdefs",
+		tags="@smoke")
 public class Runner extends BaseClass{
 
 }
