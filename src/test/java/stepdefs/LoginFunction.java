@@ -11,6 +11,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+//import jdbcConnectBasic.EmpNameCaller;
 import pageObjects.LoginPage;
 
 public class LoginFunction extends BaseClass {
@@ -19,6 +20,9 @@ public class LoginFunction extends BaseClass {
 	@Given("User navigate to Login screen")
 	public void user_navigate_to_login_screen() {
 	   Assert.assertEquals(lp.tileOfLoginscreen(),"OrangeHRM");
+//	   System.out.println("Ename column1 = "+ EmpNameCaller.callEmpOne().getEmpno());
+//	   System.out.println("Ename column1 = "+ EmpNameCaller.callEmpOne().getEmpno());
+	 
 	}
 
 	@When("User enter vlid username and valid password")

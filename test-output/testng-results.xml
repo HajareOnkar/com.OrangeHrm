@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-04T00:26:27 IST" name="Default suite" finished-at="2025-02-04T00:26:57 IST" duration-ms="29698">
+  <suite started-at="2025-02-09T21:13:07 IST" name="Default suite" finished-at="2025-02-09T21:13:18 IST" duration-ms="10905">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClasses.Runner@2cf3d63b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClasses.Runner@d737b89]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-02-04T00:26:27 IST" name="Default test" finished-at="2025-02-04T00:26:57 IST" duration-ms="29698">
+    <test started-at="2025-02-09T21:13:07 IST" name="Default test" finished-at="2025-02-09T21:13:18 IST" duration-ms="10905">
       <class name="RunnerClasses.Runner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:RunnerClasses.Runner@2cf3d63b]" started-at="2025-02-04T00:26:27 IST" name="setUpClass" finished-at="2025-02-04T00:26:27 IST" duration-ms="170" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:RunnerClasses.Runner@d737b89]" started-at="2025-02-09T21:13:07 IST" name="setUpClass" finished-at="2025-02-09T21:13:08 IST" duration-ms="491" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@54d8c20d]]>
+                <![CDATA[org.testng.TestRunner@5b251fb9]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:RunnerClasses.Runner@2cf3d63b]" started-at="2025-02-04T00:26:27 IST" name="openBrowser" finished-at="2025-02-04T00:26:32 IST" duration-ms="5127" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:RunnerClasses.Runner@d737b89]" started-at="2025-02-09T21:13:08 IST" name="openBrowser" finished-at="2025-02-09T21:13:11 IST" duration-ms="3139" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClasses.Runner@2cf3d63b]" started-at="2025-02-04T00:26:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-04T00:26:33 IST" duration-ms="634" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClasses.Runner@d737b89]" started-at="2025-02-09T21:13:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-09T21:13:18 IST" duration-ms="6454" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,59 +41,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:RunnerClasses.Runner@2cf3d63b]" started-at="2025-02-04T00:26:33 IST" name="closeBrowser" finished-at="2025-02-04T00:26:33 IST" duration-ms="153" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:RunnerClasses.Runner@d737b89]" started-at="2025-02-09T21:13:18 IST" name="closeBrowser" finished-at="2025-02-09T21:13:18 IST" duration-ms="210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:RunnerClasses.Runner@2cf3d63b]" started-at="2025-02-04T00:26:33 IST" name="openBrowser" finished-at="2025-02-04T00:26:40 IST" duration-ms="6825" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClasses.Runner@2cf3d63b]" started-at="2025-02-04T00:26:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-04T00:26:41 IST" duration-ms="1372" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User login with invalid username"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["verify Login functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:RunnerClasses.Runner@2cf3d63b]" started-at="2025-02-04T00:26:41 IST" name="closeBrowser" finished-at="2025-02-04T00:26:41 IST" duration-ms="179" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:RunnerClasses.Runner@2cf3d63b]" started-at="2025-02-04T00:26:41 IST" name="openBrowser" finished-at="2025-02-04T00:26:45 IST" duration-ms="3335" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClasses.Runner@2cf3d63b]" started-at="2025-02-04T00:26:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-04T00:26:56 IST" duration-ms="11659" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User login with invalid username"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["verify Login functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:RunnerClasses.Runner@2cf3d63b]" started-at="2025-02-04T00:26:56 IST" name="closeBrowser" finished-at="2025-02-04T00:26:57 IST" duration-ms="209" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:RunnerClasses.Runner@2cf3d63b]" started-at="2025-02-04T00:26:57 IST" name="tearDownClass" finished-at="2025-02-04T00:26:57 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:RunnerClasses.Runner@d737b89]" started-at="2025-02-09T21:13:18 IST" name="tearDownClass" finished-at="2025-02-09T21:13:18 IST" duration-ms="577" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

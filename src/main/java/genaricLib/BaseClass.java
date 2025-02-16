@@ -21,8 +21,8 @@ PropertyFile pdata=new PropertyFile();
 		//System.setProperty("webdriver.chrome.driver","C:\\Users\\onkar\\Downloads\\chromedriver-win64");
 		 driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get(pdata.getPropertyFile("URL"));
-		
+//		driver.get(pdata.getPropertyFile("URL"));
+//		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(100));
 
 
